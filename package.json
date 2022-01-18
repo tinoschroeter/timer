@@ -2,14 +2,19 @@
 	"name": "timer",
 	"version": "1.0.0",
 	"license": "MIT",
-	"bin": { "timer": "timer.js" },
+	"bin": {
+		"timer": "timer.js"
+	},
 	"engines": {
 		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava"
 	},
-	"files": ["timer.js", "ui.js"],
+	"files": [
+		"timer.js",
+		"ui.js"
+	],
 	"dependencies": {
 		"import-jsx": "^4.0.1",
 		"ink": "^3.2.0",
@@ -30,14 +35,19 @@
 		"eslint-plugin-react": "^7.28.0",
 		"eslint-plugin-react-hooks": "^4.3.0",
 		"ink-testing-library": "^2.1.0",
-		"xo": "^0.39.1"
+		"xo": "^0.47.0"
 	},
 	"ava": {
 		"babel": true,
-		"require": ["@babel/register"]
+		"require": [
+			"@babel/register"
+		]
 	},
 	"babel": {
-		"presets": ["@babel/preset-env", "@babel/preset-react"]
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
 	},
 	"xo": {
 		"extends": "xo-react",
